@@ -1,0 +1,63 @@
+/* 
+1. Puis crée un second fichier que tu appelleras style.css.
+3. Dans le fichier style.css, insère le code suivant, et enregistre ton fichier.
+https://www.codeur.com/tuto/css/police-taille-couleur-epaisseur-alignement-texte-css/
+*/
+
+
+/* Titre */
+/* <h1> Te voici sur ma page</h1>  <!-- Formatage de titre --> */
+h1{
+    font-size: 50px; /* Taille du texte */
+    font-style: oblique; /*  forme d’un texte  */
+    text-align: center; /* centrage du titre */
+    color:rgb(201, 160, 26); /* couleur du titre */
+    }
+    
+/* Paragraphe */
+/* <p> Clique sur le lien ci-dessous pour choisir le lieu où tu souhaites faire ton saut en parachute : </p>  <!-- Paragraphe -->*/ 
+p{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    font-family: Helvetica, sans-serif; /* police de caractère */
+    color :darkkhaki;
+    }
+/* Lien hypertexte */
+/* <a href= https://www.cap-adrenaline.com> cap-adrenaline </a>  <!-- lien hypertexte (href=““) et ancre (name=““) -->*/
+a {
+    display: block; /* Je transforme le lien en block pour pouvoir le positionner */
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 153, 0);
+    }
+
+/* Image */
+img {
+    display: block; /* Je transforme le lien en block pour pouvoir le positionner */
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px; /* J'ajoute un espace */
+    }
+
+/* <h2> A très vite pour un saut inoubliable </h2> <!-- Formatage de titre --> */
+h2{
+    font-size: 40px; /* Taille du texte */
+    font-style: oblique; /*  forme d’un texte  */
+    text-align: center; /* centrage du titre */
+    color:rgb(89, 216, 96); /* couleur du titre */
+    }
+
+/* <p> Et voici un autre paragraphe </p> <!-- Paragraphe --> */
+p{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    font-family: Helvetica, sans-serif; /* police de caractère */
+    color :rgb(235, 234, 224);
+    }
+
+/* Arrière plan de la page*/
+body {
+    background-color: #74005b;
+    }
